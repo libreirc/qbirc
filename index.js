@@ -90,6 +90,10 @@ Client.prototype.__proto__ = Emitter.prototype;
  */
 
 Client.prototype.write = function(str, fn) {
+  if (str.indexOf('\n') != -1 || str.indexOf('\r') != -1) {
+    fn && fn(new Error("You should not pass any '\\n' or '\\r' to `write()`."));
+    return;
+  }
   this.stream.write(str + '\r\n', fn);
 };
 
