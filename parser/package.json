@@ -1,0 +1,23 @@
+{
+  "name": "slate-irc-parser",
+  "version": "0.0.2",
+  "repository": "slate/slate-irc-parser",
+  "description": "Low-level general purpose IRC client",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "keywords": [
+    "irc",
+    "client",
+    "chat"
+  ],
+  "dependencies": {
+    "linewise": "0.0.3",
+    "debug": "~0.7.2"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "license": "MIT"
+}
