@@ -1,0 +1,24 @@
+{
+  "name": "slate-irc",
+  "version": "0.8.1",
+  "repository": "slate/slate-irc",
+  "description": "Node.js IRC client library",
+  "scripts": {
+    "test": "mocha --require should"
+  },
+  "keywords": [
+    "irc",
+    "client",
+    "chat"
+  ],
+  "dependencies": {
+    "irc-replies": "~2.0.0",
+    "slate-irc-parser": "0.0.2",
+    "debug": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "license": "MIT"
+}
