@@ -82,7 +82,7 @@ function Client(stream, parser, encoding) {
 Client.prototype.__proto__ = Emitter.prototype;
 
 /**
- * Write `str` unsafely and invoke `fn(err)`.
+ * Write `str` without checking for '\r' or '\n' and invoke `fn(err)`.
  *
  * @param {String} str
  * @param {Function} [fn]
