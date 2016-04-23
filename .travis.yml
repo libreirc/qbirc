@@ -4,3 +4,11 @@ node_js:
   - "4.2"
   - "0.12"
   - "0.10"
+
+# IRC Notification
+notifications:
+  irc:
+    nick: qbirc
+    channels: 'ircs://irc.ozinger.org:6697#openirc'
+    template: '#%{build_number} %{result}, %{build_url}'
+    skip_join: true
