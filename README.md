@@ -1,4 +1,4 @@
-qbirc [![Version]][npm] [![Build Status]][travis]
+qbirc [![Build Status]][travis] [![Version]][npm]
 ========
 General purpose IRC client for nodejs. See [documentation] for the details.
 
