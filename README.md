@@ -1,4 +1,4 @@
-qbirc
+qbirc [![Version]][npm] [![Build Status]][travis]
 ========
 General purpose IRC client for nodejs. See [documentation] for the details.
 
@@ -37,3 +37,9 @@ client.names('#express', function(err, names){
 --------
 
 MIT License
+
+[Version]: https://img.shields.io/npm/v/qbirc.svg
+[Build Status]: https://travis-ci.org/openirc/qbirc.svg?branch=master
+
+[npm]: https://npmjs.org/package/qbirc
+[travis]: https://travis-ci.org/openirc/qbirc
