@@ -8,17 +8,17 @@ describe('topic()', function() {
       var client = irc(stream);
 
       client.on('topic', function(e) {
-        e.nick.should.equal('tobi');
-        e.channel.should.eql('#slate');
-        e.topic.should.equal('Slate 1.0 is out!');
-        e.hostmask.nick.should.equal('tobi');
-        e.hostmask.username.should.equal('~user');
+        e.nick.should.equal('김지현');
+        e.channel.should.eql('#openirc');
+        e.topic.should.equal('Let\'s make OpenIRC great again!');
+        e.hostmask.nick.should.equal('김지현');
+        e.hostmask.username.should.equal('~nrvnqsr');
         e.hostmask.hostname.should.equal('example.com');
-        e.hostmask.string.should.equal('tobi!~user@example.com');
+        e.hostmask.string.should.equal('김지현!~nrvnqsr@example.com');
         done();
       });
 
-      stream.write(':tobi!~user@example.com TOPIC #slate :Slate 1.0 is out!\r\n');
+      stream.write(':김지현!~nrvnqsr@example.com TOPIC #openirc :Let\'s make OpenIRC great again!\r\n');
     });
   });
 });

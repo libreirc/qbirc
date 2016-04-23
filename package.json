@@ -1,8 +1,8 @@
 {
-  "name": "slate-irc",
-  "version": "0.8.1",
-  "repository": "slate/slate-irc",
-  "description": "Node.js IRC client library",
+  "name": "qbirc",
+  "version": "0.9.0",
+  "repository": "openirc/qbirc",
+  "description": "General purpose IRC client",
   "scripts": {
     "test": "mocha --require should"
   },
@@ -12,13 +12,13 @@
     "chat"
   ],
   "dependencies": {
-    "irc-replies": "~2.0.0",
-    "slate-irc-parser": "0.0.2",
-    "debug": "*"
+    "irc-replies": "^2.0.1",
+    "qbirc-parser": "^0.1.1",
+    "debug": "^2.2.0"
   },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+    "mocha": "^2.4.5",
+    "should": "^8.3.1"
   },
   "license": "MIT"
 }
