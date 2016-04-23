@@ -1,3 +1,14 @@
+0.9.0 / 2016-04-24
+========
+- Forked from [`slate-irc`] into [`qbirc`] by [@simnalamburt]
+- Now it uses [`qbirc-parser`] instead of [`qbirc`]
+
+[@simnalamburt]: https://github.com/simnalamburt
+[`qbirc`]: https://github.com/openirc/qbirc
+[`qbirc-parser`]: https://github.com/openirc/qbirc-parser
+[`slate-irc`]: https://github.com/slate/slate-irc
+[`slate-irc-parser`]: https://github.com/slate/slate-irc-parser
+
 0.8.1 / 2015-01-22
 --------
 - add optional stream encoding
