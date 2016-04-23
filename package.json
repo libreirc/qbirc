@@ -1,6 +1,6 @@
 {
   "name": "qbirc",
-  "version": "0.8.1",
+  "version": "0.9.0",
   "repository": "openirc/qbirc",
   "description": "General purpose IRC client",
   "scripts": {
