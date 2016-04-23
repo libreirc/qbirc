@@ -2,7 +2,7 @@
   "name": "qbirc",
   "version": "0.8.1",
   "repository": "openirc/qbirc",
-  "description": "Node.js IRC client library",
+  "description": "General purpose IRC client",
   "scripts": {
     "test": "mocha --require should"
   },
