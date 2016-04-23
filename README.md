@@ -1,4 +1,4 @@
-# slate-irc
+# qbirc
 
   General purpose IRC client with:
 
@@ -10,14 +10,14 @@
 ## Installation
 
 ```
-$ npm install slate-irc
+$ npm install qbirc
 ```
 
 ## Example
 
 ```js
 
-var irc = require('slate-irc');
+var irc = require('qbirc');
 var net = require('net');
 
 var stream = net.connect({
@@ -198,19 +198,19 @@ function pong(){
   Enable debug output:
 
 ```
-$ DEBUG=slate-irc node script.js
-  slate-irc message NOTICE :asimov.freenode.net NOTICE * :*** Looking up your hostname... +0ms
-  slate-irc message NOTICE :asimov.freenode.net NOTICE * :*** Checking Ident +119ms
-  slate-irc message NOTICE :asimov.freenode.net NOTICE * :*** Couldn't look up your hostname +1ms
+$ DEBUG=qbirc node script.js
+  qbirc message NOTICE :asimov.freenode.net NOTICE * :*** Looking up your hostname... +0ms
+  qbirc message NOTICE :asimov.freenode.net NOTICE * :*** Checking Ident +119ms
+  qbirc message NOTICE :asimov.freenode.net NOTICE * :*** Couldn't look up your hostname +1ms
   ...
 ```
 
   Enable debug output for a specific plugin:
 
 ```
-$ DEBUG=slate-irc:names node test.js
-  slate-irc:names add #luna-lang ["tjholowaychuk","ramitos","zehl","yawnt","juliangruber"] +0ms
-  slate-irc:names emit "names" for #luna-lang +3ms
+$ DEBUG=qbirc:names node test.js
+  qbirc:names add #luna-lang ["tjholowaychuk","ramitos","zehl","yawnt","juliangruber"] +0ms
+  qbirc:names emit "names" for #luna-lang +3ms
 ```
 
   Enable output of "raw" qbirc-parser level debug info:

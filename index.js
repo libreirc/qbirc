@@ -4,7 +4,7 @@
  */
 
 var Emitter = require('events').EventEmitter;
-var debug = require('debug')('slate-irc');
+var debug = require('debug')('qbirc');
 var Parser = require('qbirc-parser');
 var replies = require('irc-replies');
 

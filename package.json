@@ -1,7 +1,7 @@
 {
-  "name": "slate-irc",
+  "name": "qbirc",
   "version": "0.8.1",
-  "repository": "slate/slate-irc",
+  "repository": "openirc/qbirc",
   "description": "Node.js IRC client library",
   "scripts": {
     "test": "mocha --require should"
