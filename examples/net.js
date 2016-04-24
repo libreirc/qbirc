@@ -1,5 +1,4 @@
-
-var irc = require('..');
+var irc = require('qbirc');
 var net = require('net');
 
 var stream = net.connect({
