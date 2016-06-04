@@ -1,3 +1,7 @@
+master
+--------
+- [`qbirc-parser`] has been deprecated, use [`slate-irc-parser`] instead
+
 0.9.0 / 2016-04-24
 ========
 - Forked from [`slate-irc`] into [`qbirc`] by [@simnalamburt]

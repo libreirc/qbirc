@@ -157,11 +157,11 @@ $ DEBUG=qbirc:names node test.js
   qbirc:names emit "names" for #luna-lang +3ms
 ```
 
-Enable output of "raw" qbirc-parser level debug info:
+Enable output of "raw" slate-irc-parser level debug info:
 ```bash
-$ DEBUG=qbirc-parser node test.js
-  qbirc-parser line ':rothfuss.freenode.net NOTICE * :*** Looking up your hostname...' +0ms
-  qbirc-parser message {"prefix":"rothfuss.freenode.net","command":"NOTICE","params":"*","trailing":"*** Looking up your hostname...","string":":rothfuss.freenode.net NOTICE * :*** Looking up your hostname..."} +2ms
-  qbirc-parser line ':rothfuss.freenode.net NOTICE * :*** Checking Ident' +450ms
-  qbirc-parser message {"prefix":"rothfuss.freenode.net","command":"NOTICE","params":"*","trailing":"*** Checking Ident","string":":rothfuss.freenode.net NOTICE * :*** Checking Ident"} +0ms
+$ DEBUG=slate-irc-parser node test.js
+  slate-irc-parser line ':rothfuss.freenode.net NOTICE * :*** Looking up your hostname...' +0ms
+  slate-irc-parser message {"prefix":"rothfuss.freenode.net","command":"NOTICE","params":"*","trailing":"*** Looking up your hostname...","string":":rothfuss.freenode.net NOTICE * :*** Looking up your hostname..."} +2ms
+  slate-irc-parser line ':rothfuss.freenode.net NOTICE * :*** Checking Ident' +450ms
+  slate-irc-parser message {"prefix":"rothfuss.freenode.net","command":"NOTICE","params":"*","trailing":"*** Checking Ident","string":":rothfuss.freenode.net NOTICE * :*** Checking Ident"} +0ms
 ```
