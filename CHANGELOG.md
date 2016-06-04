@@ -1,7 +1,7 @@
 0.9.0 / 2016-04-24
 ========
 - Forked from [`slate-irc`] into [`qbirc`] by [@simnalamburt]
-- Now it uses [`qbirc-parser`] instead of [`qbirc`]
+- Now it uses [`qbirc-parser`] instead of [`slate-irc-parser`]
 
 [@simnalamburt]: https://github.com/simnalamburt
 [`qbirc`]: https://github.com/openirc/qbirc
